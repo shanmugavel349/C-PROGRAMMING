@@ -22,3 +22,17 @@ void main()
     sub=a-b;
     printf("difference is %d",sub);
 }
+
+// division of two numbers
+
+#include <stdio.h>
+void main()
+{
+    int a,b,quationt,remainder;
+    printf("enter the two numbers");
+    scanf("%d%d",&a,&b);
+    quationt = a/b;
+    remainder = a%b;
+    printf("quationt = %d\n",quationt);
+    printf("remainder = %d",remainder);
+}
