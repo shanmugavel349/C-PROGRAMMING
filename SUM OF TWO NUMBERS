@@ -1,4 +1,5 @@
 //ADDING TWO NUMBERS
+
 #include <stdio.h>
 int main()
 {
@@ -11,4 +12,17 @@ sum = a+b;
 
     printf("sum = %d",sum);
     return 0;
+}
+
+//SUBTRACTING TWO NUMBERS
+
+#include <stdio.h>
+void main()
+{
+
+    int a,b,sub;
+    printf("enter the two numbers");
+    scanf("%d%d",&a,&b);
+    sub=a-b;
+    printf("difference is %d",sub);
 }
